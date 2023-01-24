@@ -25,6 +25,7 @@
             </nav>
         </div>
         <div style="background-image:url(./images/background.jpg)"class="bg-cover bg-no-repeat bg-fixed bg-center p-6 flex h-screen">
+        <div>
             <div id="textcenter" class="flex items-center justify-between leading-tight">
                 <h1 class="text-slate-200 my-1 px-1 md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
                     Explore the world effortlessly by train! 
@@ -33,20 +34,22 @@
                     Compare, book and enjoy cheap prices for train trickets:your journey starts on Tickethack.
                 </h3>
             </div>  
-            <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+            <div class="bg-white p-2 grid grid-cols-1 w-2/5 h-4/6 rounded-md flex flex-col justify-center">
                 <div class="rounded overflow-hidden">
-                  <div class="px-6 py-4">
-                    <input type="text" placeholder="Departure">
-                    <input type="text" placeholder="Arrival">
+                  <div class="px-10 py-2 pt-6">
+                    <input class="bg-slate-300 text-gray-700 text-lg w-72" type="text" placeholder="Departure">
+                    <input class="bg-slate-300 text-gray-700 text-lg w-72" type="text" placeholder="Arrival">
                   </div>
-                  <div class="px-6 pt-4 pb-3">
-                    <input type="date" value="2023-06-01">
-                    <button id="btnsearch" class="bg-emerald-500 text-slate-200 border border-emerald-500 hover:bg-emerald-500 hover:text-white active:bg-emerald-600 font-bold uppercase px-8 py-3 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button"
-                    >Search</button>
+                  <div class="p-2 px-10 pt-24">
+                    <input class="bg-slate-300 text-md w-72"type="date" value="2023-06-01">
+                  </div>
+                  <div class="px-28 pt-20 pb-3 items-center justify-center flex-col">
+                    <button id="btnsearch" class="bg-emerald-500 text-slate-200 border border-emerald-500 hover:bg-emerald-500 hover:text-white active:bg-emerald-600 font-bold uppercase px-8 py-3 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 flex" type="button">Search</button>
                   </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </body>
 </html>
