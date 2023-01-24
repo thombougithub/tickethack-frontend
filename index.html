@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tickethack</title>
+</head>
+<body>
+    <div>
+        <div id="header">
+            <nav class="bg-slate-200 p-6">
+            <ul class="flex bg-color-dark">
+                <li class="mr-6 w-full block flex-grow lg:flex lg:items-center lg:w-auto ">
+                  <a href="#" class="text-emerald-500 hover:text-pink-500">Tickethack</a>
+                </li>
+                <li class="mr-6">
+                  <a class="text-black-500 hover:text-blue-800" href="#">cart</a>
+                </li>
+                <li class="mr-6">
+                  <a class="text-black-400 hover:text-blue-800" href="#">Bookings</a>
+                </li>
+              </ul>
+            </nav>
+        </div>
+        <div style="background-image:url(./images/background.jpg)"class="bg-cover bg-no-repeat bg-fixed bg-center p-6 flex h-screen">
+            <div id="textcenter" class="flex items-center justify-between leading-tight">
+                <h1 class="text-slate-200 my-1 px-1 md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                    Explore the world effortlessly by train! 
+                </h1>
+                <h3 class="text-slate-100 my-1 px-1 w-full">
+                    Compare, book and enjoy cheap prices for train trickets:your journey starts on Tickethack.
+                </h3>
+            </div>  
+            <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+                <div class="rounded overflow-hidden">
+                  <div class="px-6 py-4">
+                    <input type="text" placeholder="Departure">
+                    <input type="text" placeholder="Arrival">
+                  </div>
+                  <div class="px-6 pt-4 pb-3">
+                    <input type="date" value="2023-06-01">
+                    <button id="btnsearch" class="bg-emerald-500 text-slate-200 border border-emerald-500 hover:bg-emerald-500 hover:text-white active:bg-emerald-600 font-bold uppercase px-8 py-3 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button"
+                    >Search</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
