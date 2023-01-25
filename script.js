@@ -27,3 +27,18 @@ function displayResult(){
     })
 }
 document;querySelector('#btn_search').addEventListener('click',displayResult)
+
+
+function required(){
+    let arrivalVal= document.querySelector('#arrival').value;
+    let departureVal = document.querySelector('#departure').value;
+    let dateVal = document.querySelector('#date').value;
+
+    if (!arrivalVal || !departureVal || !dateVal) {
+               document.querySelector('#background_image').src = 'url(./images/notfound.png)';
+               document.querySelector('#right_container>h3').textContent='No trip found';
+    } else { if (arrivalVal === "" || departureVal === "" || dateVal === "") {
+               document.querySelector('#background_image').src = 'url(./images/notfound.png)';
+               document.querySelector('#right_container>h3').textContent='No trip found';
+    } } 
+};

@@ -1,41 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    <link href="./style.css" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Tickethack</title>
-</head>
-<body>
-<header id="header">
-  <h1 id="tickethack">Tickethack</h1>
-  <div id="cartBooking">
-    <a href='./cart.html'><h2>Cart </h2></a>
-    <a href='./bookings.html'><h2>Booking</h2></a>
-  </div>
-</header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./style.css" rel="stylesheet" />
 
-<content id="content">
-   <h2>Explore the world effortlessly by train !</h2>
-   <h4>Compare , book and enjoy cheap prices for train tickets : your journey starts on Tickethack</h4>
-   <div id="containers_home">
-      <div class="container_home">
-       <input id='departure' class='input_boxes' type="text" id="name" name="name" placeholder="departure"/>
-       <input id='arrival' class='input_boxes' type="text" id="name" name="name" placeholder="arrival"/>
-       <input id='date' type="date" >
-       <button id="btn_search" class="growb">Search</button>
+    <title>Tickethack</title>
+  </head>
+  <body>
+    <header id="header">
+      <h1 id="tickethack">Tickethack</h1>
+      <div id="cartBooking">
+        <a href="./cart.html"><h2>Cart</h2></a>
+        <a href="./bookings.html"><h2>Booking</h2></a>
       </div>
-      <div id="right_container" class="container_home">
-        <div id="background_image"></div>
-        <h3>It's time to book your future trip</h3>
+    </header>
+
+    <content id="content">
+      <h2>Explore the world effortlessly by train !</h2>
+      <h4>
+        Compare , book and enjoy cheap prices for train tickets : your journey
+        starts on Tickethack
+      </h4>
+      <div id="containers_home">
+        <div class="container_home">
+          <input
+            id="departure"
+            class="input_boxes"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="departure"
+          />
+          <input
+            id="arrival"
+            class="input_boxes"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="arrival"
+          />
+          <input id="date" type="date" />
+          <button id="btn_search" class="growb">Search</button>
+        </div>
+        <div id="right_container" class="container_home">
+          <div id="background_image"></div>
+          <h3>It's time to book your future trip</h3>
+        </div>
       </div>
-   </div>
-</content>
-<script src="script.js"></script>
-</body>
+    </content>
+    <script src="script.js"></script>
+  </body>
 </html>
