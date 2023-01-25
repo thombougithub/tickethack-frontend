@@ -25,6 +25,9 @@ body {
     margin-right: 40px
 
 }
+/* #balisepcart{
+    font-weight:bolder;
+} */
 
 #cartBooking > h2 {
     font-size: 15px;
@@ -185,8 +188,9 @@ h6.enjoy{
     padding-top: 25px;
 }
 
-/* box left */
-
+.normalsize{
+ padding-top: 2rem;   
+}
 .input_boxes {
     background-color: rgb(238, 238, 238);
     width: 200px;
@@ -196,7 +200,7 @@ h6.enjoy{
     }
 
 .input_boxes:hover {
-    border: blue solid 2px;
+    border: lightgray solid 2px;
     cursor: pointer;
 }
 
@@ -235,10 +239,19 @@ input::placeholder {
     border-radius: 3px;
     color: white
 }
+#btn_search:hover{
+    border: #3d8772 solid 2px;
+}
 
 /* box right */
 
 #right_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+}
+#right_containerindex {
     display: flex;
     flex-direction: column;
     align-items: center;
