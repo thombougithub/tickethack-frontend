@@ -166,7 +166,7 @@ input::placeholder {
 #date {
     margin-top: 50px;
     background-color: rgb(238, 238, 238);
-    width: 100px;
+    width: 200px;
     height: 30px;
     cursor:pointer;
 }
@@ -214,23 +214,55 @@ input::placeholder {
 }
 
 #right_container >h3 {
-    margin-top: 20px;
     font-size: 12px;
 }
 
 .container_result{
-    background-color: grey;
+    background-color: rgb(246, 246, 246);
     border-radius: 2px;
-    height: auto;
+    height: 50px;
     width: 220px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
 }
 
 .container_result > p {
-     font-size: 5px;
+     font-size: 10px;
 }
 
 .btn_book {
-    width: 10px;
+    width: 40px;
     height: 20px;
+    background-color: rgb(44, 116, 44);
+    color:white
+}
+
+.trip_result {
+    font-size: 2px;
+}
+
+
+.container_result_cart{
+    width : 250px;
+    height: 50px;
+    background-color:red;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#containers_cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_result_booking {
+    width: 400px;
+    height: 150px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
 }
