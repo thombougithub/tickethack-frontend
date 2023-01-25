@@ -112,7 +112,7 @@ h6.enjoy{
 .footer{
     position: absolute;
     bottom:9em;
-    background-color: #66b3ff;
+    background-color:  #003d99;
     width: 800px;
     height: 60px;
     display: flex;
@@ -121,6 +121,11 @@ h6.enjoy{
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
+.textcartfooter{
+    display: flex;
+    margin-left: 50px;
+    color: white;
+} 
 .btnPurchase{
     width: 100px;
     height: 30px;
@@ -128,6 +133,7 @@ h6.enjoy{
     border-radius: 6px;
     color: white;
     margin-left: 20rem;
+    margin-right: 2rem;
 }
 .container_cart{
     width: 800px;
