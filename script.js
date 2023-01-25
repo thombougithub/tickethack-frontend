@@ -26,6 +26,4 @@ function displayResult(){
         }
     })
 }
-document.querySelector('#btn_search').addEventListener('click',displayResult)
-
-//Check value in input boxes
+document;querySelector('#btn_search').addEventListener('click',displayResult)
