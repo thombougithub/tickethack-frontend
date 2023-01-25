@@ -52,7 +52,7 @@ body {
     align-items: center;
 }
 #contentCart {
-    background-color: lightgray;
+    background-color: #f2f2f2;
     height:100%;
     background-size: cover;
     display: flex;
@@ -60,7 +60,7 @@ body {
     align-items: center;
 }
 #contentCartPage {
-    background-color: lightgray;
+    background-color: #f2f2f2;
     height:100%;
     background-size: cover;
     display: flex;
@@ -71,7 +71,7 @@ h6.enjoy{
     color: rgb(120, 186, 21);
 }
 #contentBookingPage {
-    background-color: lightgray;
+    background-color: #f2f2f2;
     height:100%;
     background-size: cover;
     display: flex;
@@ -118,6 +118,8 @@ h6.enjoy{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 .btnPurchase{
     width: 100px;
