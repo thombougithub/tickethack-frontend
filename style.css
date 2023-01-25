@@ -123,6 +123,16 @@ h6.enjoy{
     height: 350px;
     margin-top: 170px;
 }
+.textbooking{
+    padding-top: 90px;
+}
+.mybookingsblack{
+    color: black;
+    font-weight: bold;
+}
+.enjoy{
+    padding-top: 15px;
+}
 .container_booking{
     width: 800px;
     height: 200px;
@@ -131,7 +141,7 @@ h6.enjoy{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 25px;
+    padding-top: 20px;
 }
 .container_home{
     width: 250px;

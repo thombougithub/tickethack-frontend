@@ -26,4 +26,4 @@ function displayResult(){
         }
     })
 }
-document;querySelector('#btn_search').addEventListener('click',displayResult)
+document.querySelector('#btn_search').addEventListener('click',displayResult)
